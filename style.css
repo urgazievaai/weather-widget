@@ -1,0 +1,61 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #2F484B;
+  background-image: url('https://images.unsplash.com/photo-1576413326475-ea6c788332fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9zY293fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+.weather-card{
+  width: 240px;
+  max-width: 400px;
+  padding: 2em;
+  border-radius: 30px;
+  font-family: 'Open Sans', sans-serif;
+  /* почему фон стал полупрозрачным когда к цвету добавила d0? */
+  background-color: #000000d0;
+  color: white;
+}
+.wearth-search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar{
+  background-color: #a7abacd0;
+  padding: 4px 8px;
+  margin-right: 6px;
+  max-width: 250px;
+  border-radius: 30px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  width: calc(100% - 50px);
+}
+.search-btn{
+  background-color: #a7abacd0;
+  vertical-align: middle;
+  padding: 0;
+  max-width: 23px;
+  height: 23px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out ;
+  
+}
+.search-btn:hover{
+  background-color: #7c7c7c2b;
+}
+
+.btn-svg{
+  margin-top: -4px;
+  margin-left: -4px;
+}
