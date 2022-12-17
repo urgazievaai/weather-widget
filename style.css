@@ -5,9 +5,9 @@ body{
   height: 100vh;
   margin: 0;
   background: #2F484B;
-  background-image: url('https://images.unsplash.com/photo-1576413326475-ea6c788332fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9zY293fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+  background-image: url('https://images.unsplash.com/photo-1591804227855-d6fe0b648d0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzl8fHdlYXRoZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   
 }
 .weather-card{
@@ -59,3 +59,31 @@ body{
   margin-top: -4px;
   margin-left: -4px;
 }
+.weather{
+  display: none;
+}
+.city{
+  font-size: 2em;
+}
+.temp{
+  font-size: 1.5em;
+}
+.wrap{
+  display: flex;
+  align-items: center;
+}
+.weather-icon{
+  width: 60px;
+  height: 60px;
+  margin-left: -10px;
+  position: relative;
+}
+/* .desc{
+  margin: 0;
+  font-size: 1em;
+}
+.humidity{
+  font-size: 1.2em;
+} */
+
+
